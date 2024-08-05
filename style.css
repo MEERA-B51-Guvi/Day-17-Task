@@ -1,0 +1,50 @@
+body{
+    background-color: #153745;
+    justify-content: center;
+    gap: 1rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+}
+.card-img-top{ 
+    width: 90%;
+    /* height: 14rem; */
+    margin-left:5%; 
+    margin-top: 7%;
+    
+    
+}
+.countryname{
+    border: 1px solid black;
+    height: 15%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-weight: 400;
+    padding: auto;
+   
+   
+}
+.card{
+    height: 100%;
+    background-image: linear-gradient(to right, #f6daa7 , #153745 );
+    border: 0.5px solid rgb(164, 162, 162);
+}
+.card-body{
+    justify-content: center;
+    place-items: center;    
+    line-height: 50%;
+    font-size: small;
+    color: white;
+    
+}
+.btn{
+    border: 1px solid white;
+    width: 50%;
+    height: 1%;
+    font-size: small;
+    margin-bottom: 2%;
+    color: white;
+}
